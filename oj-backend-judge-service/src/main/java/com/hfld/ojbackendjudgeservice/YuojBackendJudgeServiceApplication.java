@@ -1,6 +1,6 @@
 package com.hfld.ojbackendjudgeservice;
 
-import com.hfld.ojbackendjudgeservice.rabbitmq.InitRabbitMQ;
+import com.hfld.ojbackendjudgeservice.rabbitmq.CodeMqInitMain;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -19,7 +19,7 @@ public class YuojBackendJudgeServiceApplication {
 
     public static void main(String[] args) {
         // 初始化消息队列
-        InitRabbitMQ.doInit();
+        CodeMqInitMain.doInitCodeMq();
         SpringApplication.run(YuojBackendJudgeServiceApplication.class, args);
     }
 }
