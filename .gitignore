@@ -1,0 +1,7 @@
+/oj-backend-gateway/src/main/resources/application.yml
+/oj-backend-judge-service/src/main/resources/application.yml
+/oj-backend-question-service/src/main/resources/application.yml
+/oj-backend-service-client/src/main/resources/application.yml
+/oj-backend-user-service/src/main/resources/application.yml
+/src/main/resources/application.properties
+/.idea/
